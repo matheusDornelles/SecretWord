@@ -1,19 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { useCallback, useEffect, useState } from "react";
 
-//imports
-//css
-import './App.css'; 
-//Components
-import StartScreen from './components/StartScreen';
-import Game from './components/Game';
-import GameOver from './components/GameOver';
-//React
-import {useState, useCallback, useEffect} from "react";
-//Data
-import { wordsList } from "./data/words";  
-import { set } from 'express/lib/application';
-import { workerData } from 'worker_threads';
+// components
+import StartScreen from "./components/StartScreen";
+import Game from "./components/Game";
+import GameOver from "./components/GameOver";
+
+// styles
+import "./App.css";
+
+// data
+import { wordsList } from "./data/words";
 
 const stages = [
 
@@ -38,6 +34,7 @@ function App() {
     console.log(category);
 
     //pick a random word
+     
     
   }
   //starts the game
