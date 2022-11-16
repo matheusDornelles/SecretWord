@@ -28,3 +28,22 @@
     color: black;
     font-weight: bold;
 }
+
+.letterContainer p{
+    margin-bottom: 1.2em;
+}
+
+.letterContainer form {
+    display :flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letterContainer input{
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    text-align: center;
+    margin-right:1em;
+    
+}
