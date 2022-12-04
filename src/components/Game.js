@@ -26,7 +26,7 @@ const Game = ({
   };
 
   return (
-    <div className="game">
+    <div className='w-full md:h-screen text-gray-300  bg-[#0a192f]'>
       <p className="points">
         <span>Pontuação: {score} </span>
       </p>

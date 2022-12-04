@@ -1,5 +1,6 @@
 import "./GameOver.css";
 
+
 const GameOver = ({ retry, score }) => {
   return (
     <div className="gameover">

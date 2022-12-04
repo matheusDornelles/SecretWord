@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .game h1 {
     font-size: 2.5em;
 }
@@ -7,14 +11,15 @@
 }
 
 .tip span {
-    color: yellow
+    color: rgb(243, 147, 4)
 }
 
 .wordContainer{
     margin: 1.5em;
     padding: 1.5em;
-    border: 20px solid yellow;
+    border: 20px solid rgb(81, 81, 78);
     display:flex;
+    
 }
 
 .letter, .blankSquare{
@@ -37,6 +42,7 @@
     display :flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .letterContainer input{
@@ -46,4 +52,10 @@
     text-align: center;
     margin-right:1em;
     
+    
 }
+
+p {
+    font-weight: bold;
+}
+
